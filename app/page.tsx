@@ -1,13 +1,12 @@
-import { Button } from "@/components/ui/button"
+import { Button } from '@/components/ui/button'
 import React from 'react'
 
-const Page = () => {
+const page = () => {
   return (
-    <div>
-      <h1 className="text-2xl underline">Welcome to my Saas</h1>
-      <Button>Let's get started</Button>
+    <div className='text-2xl underline'>Welcome to my Saas
+    <Button>Let's get started</Button>
     </div>
   )
 }
 
-export default Page
+export default page
